@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Businnes.Concrete;
+using DataAccess.Concrete.InMemory;
+using System;
 
 namespace ConsoleUI
 {
@@ -6,7 +8,8 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            Console.WriteLine("Hello World");
+            
         }
     }
 }
